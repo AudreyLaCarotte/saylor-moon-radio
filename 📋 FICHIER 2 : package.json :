@@ -1,0 +1,15 @@
+{
+  "name": "saylor-moon-radio",
+  "version": "1.0.0",
+  "main": "radio_bot.js",
+  "scripts": {
+    "start": "node radio_bot.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.22.1",
+    "ffmpeg-static": "^5.2.0",
+    "ytdl-core": "^4.11.5"
+  }
+}
