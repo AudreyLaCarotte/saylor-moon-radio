@@ -5,11 +5,15 @@
   "scripts": {
     "start": "node radio_bot.js"
   },
+  "keywords": ["discord", "bot", "radio"],
+  "author": "",
+  "license": "ISC",
+  "description": "Discord Radio Bot Saylor Moon - Render Compatible",
   "dependencies": {
-    "@discordjs/opus": "^0.10.0",
-    "@discordjs/voice": "^0.18.0",
-    "discord.js": "^14.22.1",
-    "ffmpeg-static": "^5.2.0",
-    "ytdl-core": "^4.11.5"
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.16.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
